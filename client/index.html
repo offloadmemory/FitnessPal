@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Siruseri Runners</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="vendor/stylesheets/bootstrap.min.css">
+	</head>
+	<body ng-app="FitnessPal">
+		<div ng-include="'app/header.tpl.html'"></div>
+		<div ng-view></div>
+
+		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="vendor/lib/bootstrap.min.js"></script>
+		<script src="vendor/lib/angular.min.js"></script>
+		<script src="vendor/lib/angular-route.min.js"></script>
+
+		<script src="app/app.js"></script>
+
+		<script src="app/home/home.route.js"></script>
+		<script src="app/home/home.controller.js"></script>
+		<script src="app/home/home.service.js"></script>
+
+		<script src="app/events/events.route.js"></script>
+		<script src="app/events/events.controller.js"></script>
+		<script src="app/events/events.service.js"></script>
+
+	</body>
+</html>
