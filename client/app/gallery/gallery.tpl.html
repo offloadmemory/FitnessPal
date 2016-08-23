@@ -1,0 +1,7 @@
+<div class="container" id="content">
+  <h1 class="text-center">Gallery & Running Albums </h1><hr class="style-star"/>
+  <div class="col-md-6" ng-repeat="photo in photos">
+     <a href="#/photodetail/{{photo}}"><img ng-src="vendor/photos/{{photo}}" id="photo"/></a>
+  </div>
+  <div ng-include='"app/shared/comments.tpl.html"'></div>
+</div>

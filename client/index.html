@@ -8,12 +8,14 @@
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="vendor/stylesheets/bootstrap.min.css">
+		<link rel="stylesheet" href="vendor/stylesheets/font-awesome.min.css">
+		<link rel="stylesheet" href="vendor/stylesheets/main.css">
 	</head>
 	<body ng-app="FitnessPal">
 		<div ng-include="'app/header.tpl.html'"></div>
 		<div ng-view></div>
 
-		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="vendor/lib/jquery.min.js"></script>
 		<script src="vendor/lib/bootstrap.min.js"></script>
 		<script src="vendor/lib/angular.min.js"></script>
 		<script src="vendor/lib/angular-route.min.js"></script>
@@ -27,6 +29,18 @@
 		<script src="app/events/events.route.js"></script>
 		<script src="app/events/events.controller.js"></script>
 		<script src="app/events/events.service.js"></script>
+
+		<script src="app/results/results.route.js"></script>
+		<script src="app/results/results.controller.js"></script>
+		<script src="app/results/results.service.js"></script>
+
+		<script src="app/gallery/gallery.route.js"></script>
+		<script src="app/gallery/gallery.controller.js"></script>
+		<script src="app/gallery/gallery.service.js"></script>
+
+		<script src="app/about/about.route.js"></script>
+		<script src="app/about/about.controller.js"></script>
+		<script src="app/about/about.service.js"></script>						
 
 	</body>
 </html>

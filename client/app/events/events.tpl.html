@@ -1,3 +1,10 @@
-<div class="container">
-	<h1>This is events page!</h1>
+<div class="container" id="content">
+  <h1 class="text-center">Upcoming Events</h1><hr class="style-star"/>
+   <div class="col-md-8">
+		<div class="well" ng-repeat="marathon in marathons track by $index">
+		    <img ng-src="vendor/images/dream-runners.jpg" id="runners-logo"/>
+            <h3><i class="fa fa-calendar"></i>&nbsp;{{marathon}}</h3>
+	   </div>
+   </div>
+	<div ng-include='"app/shared/comments.tpl.html"'></div>
 </div>

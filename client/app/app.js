@@ -1,6 +1,9 @@
 angular.module('FitnessPal',[
 	'ngRoute',
 	'home',
-	'events'
+	'events',
+	'results',
+	'gallery',
+	'about'
 ]);
 
