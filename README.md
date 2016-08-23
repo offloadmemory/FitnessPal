@@ -8,7 +8,6 @@ An app for fitness freaks
 
 ```
 > mongoimport --db test --collection runners runners.json
-2016-08-23T23:22:53.159+0530    connected to: localhost
-2016-08-23T23:22:53.176+0530    imported 16 documents
+> mongoimport --db test --collection results results.json
 
 ```
