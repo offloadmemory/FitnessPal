@@ -17,18 +17,21 @@ ExpressJS 4.13.4 or above
 NodeJS 4.4.7 or above
 Git Client 
 
-** Checkout **
+## Steps 
+
+**Checkout**
 
 Checkout the code from github using git client.
 
 ``git clone https://github.com/Thirunavukkarasu/Trackion.git``
 
-** Checkout the remote repository **
+**Checkout the remote repository**
 
 ``git pull FitnessPal master``
 
-** Checkin the code from local repository **
+**Checkin the code from local repository**
 
+``git commit -am "Updated ReadMe"
 ``git push FitnessPal master``
 
 ## Import JSON MongoDB
