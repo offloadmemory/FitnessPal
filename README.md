@@ -31,7 +31,7 @@ Checkout the code from github using git client.
 
 **Checkin the code from local repository**
 
-``git commit -am "Updated ReadMe"
+``git commit -am "Updated ReadMe"``
 ``git push FitnessPal master``
 
 ## Import JSON MongoDB
